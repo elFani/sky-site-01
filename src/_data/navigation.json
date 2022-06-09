@@ -6,9 +6,9 @@
       "external": false
     },
     {
-      "text": "Skylark",
-      "url": "https://skylark.llc",
-      "external": true
+      "text": "Demo Page",
+      "url": "/example",
+      "external": false
     },
     {
       "text": "Example Contact Page",
