@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Example Page
+permalink: /example/index.html
 ---
 Here is a generic page template
 
