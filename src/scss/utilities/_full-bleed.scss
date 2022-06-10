@@ -3,3 +3,22 @@
   margin-left: 50%;
   transform: translateX(-50%);
 }
+
+/* A feature figure presentational component */
+.feature-figure img {
+  width: 100%;
+  box-shadow: 0 0 20px hsl(0, 0%, 0%, 0.2);
+}
+
+.feature-figure figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.6rem;
+}
+
+@supports (object-fit: cover) {
+  .feature-figure img {
+    max-height: 25rem;
+    object-fit: cover;
+  }
+}
